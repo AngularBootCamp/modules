@@ -8,7 +8,7 @@ import { SharedModule } from '../shared/shared.module';
   declarations: [
     HrFilesSearchComponent
   ],
-  exports: [HrFilesSearchComponent],         // export COMPONENTS, directives, pipes
+  exports: [HrFilesSearchComponent],      // export COMPONENTS, directives, pipes
   imports: [SharedModule, CommonModule]   // import MODULES
 })
 export class HrModule { }
