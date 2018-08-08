@@ -1,8 +1,9 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 
-import { PayrollSearchComponent  } from './payroll-search.component';
 import { SharedModule } from '../shared/shared.module';
+
+import { PayrollSearchComponent } from './payroll-search.component';
 
 @NgModule({
   declarations: [

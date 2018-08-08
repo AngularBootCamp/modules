@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { PayrollModule } from './payroll/payroll.module';
-import { HrModule } from './hr-files/hr.module';
 import { AppComponent } from './app.component';
+import { HrModule } from './hr-files/hr.module';
+import { PayrollModule } from './payroll/payroll.module';
 
 @NgModule({
   declarations: [
