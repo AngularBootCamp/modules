@@ -8,4 +8,4 @@ import { Component } from '@angular/core';
     <hr-files-search></hr-files-search>
   `
 })
-export class AppComponent { }
+export class AppComponent {}

@@ -6,10 +6,8 @@ import { SharedModule } from '../shared/shared.module';
 import { HrFilesSearchComponent } from './hr-files-search.component';
 
 @NgModule({
-  declarations: [
-    HrFilesSearchComponent
-  ],
-  exports: [HrFilesSearchComponent],      // export COMPONENTS, directives, pipes
-  imports: [SharedModule, CommonModule]   // import MODULES
+  declarations: [HrFilesSearchComponent],
+  exports: [HrFilesSearchComponent], // export COMPONENTS, directives, pipes
+  imports: [SharedModule, CommonModule] // import MODULES
 })
-export class HrModule { }
+export class HrModule {}

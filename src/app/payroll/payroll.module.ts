@@ -6,10 +6,8 @@ import { SharedModule } from '../shared/shared.module';
 import { PayrollSearchComponent } from './payroll-search.component';
 
 @NgModule({
-  declarations: [
-    PayrollSearchComponent
-  ],
+  declarations: [PayrollSearchComponent],
   exports: [PayrollSearchComponent],
   imports: [SharedModule, CommonModule]
 })
-export class PayrollModule { }
+export class PayrollModule {}

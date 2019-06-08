@@ -6,10 +6,8 @@ import { HrModule } from './hr-files/hr.module';
 import { PayrollModule } from './payroll/payroll.module';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [PayrollModule, HrModule, BrowserModule],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
