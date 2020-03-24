@@ -1,13 +1,13 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
-import { SharedModule } from '../shared/shared.module';
+import { SearchModule } from '../search/search.module';
 
 import { PayrollSearchComponent } from './payroll-search.component';
 
 @NgModule({
   declarations: [PayrollSearchComponent],
   exports: [PayrollSearchComponent],
-  imports: [SharedModule, CommonModule]
+  imports: [SearchModule, CommonModule]
 })
 export class PayrollModule {}
