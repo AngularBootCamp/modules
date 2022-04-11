@@ -8,6 +8,6 @@ import { HrFilesSearchComponent } from './hr-files-search.component';
 @NgModule({
   declarations: [HrFilesSearchComponent],
   exports: [HrFilesSearchComponent], // export COMPONENTS, directives, pipes
-  imports: [SearchModule, CommonModule] // import MODULES
+  imports: [CommonModule, SearchModule] // import MODULES
 })
 export class HrModule {}

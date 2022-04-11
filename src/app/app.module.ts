@@ -7,7 +7,7 @@ import { PayrollModule } from './payroll/payroll.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [PayrollModule, HrModule, BrowserModule],
+  imports: [BrowserModule, HrModule, PayrollModule],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

@@ -8,6 +8,6 @@ import { PayrollSearchComponent } from './payroll-search.component';
 @NgModule({
   declarations: [PayrollSearchComponent],
   exports: [PayrollSearchComponent],
-  imports: [SearchModule, CommonModule]
+  imports: [CommonModule, SearchModule]
 })
 export class PayrollModule {}
